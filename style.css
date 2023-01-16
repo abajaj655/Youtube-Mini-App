@@ -1,0 +1,49 @@
+button{
+    width: 80px;
+    display: block;
+    margin: auto;
+    background-color: white;
+    border: 1px solid black;
+}
+
+button > img { 
+    width: 30px;
+}
+
+#query { 
+    margin: auto;
+    display: block;
+    width: 550px;
+    height: 31px;
+    margin-left: 200px;
+
+}
+
+#navbar{
+    display: grid;
+    grid-template-columns: repeat(3,500px);
+    justify-content: center;
+    margin-bottom: 50px;
+    padding: 5px;
+}
+
+#container {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+#ytIcon> img{
+    width: 125px;
+    margin-left: 40px;
+}
+
+body > div{
+    display: flex;
+}
+
+button + button { 
+    margin-left: 1px;
+    padding: 5px;
+}
